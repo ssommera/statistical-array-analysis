@@ -12,33 +12,30 @@ public class StatisticalArrayAnalysis {
 		// Display data in 5-column format
 		System.out.println("Array Contents:");
         printDataInColumns(data, 5);	
-		
+
 		// Compute extremal values and their positions
 		int largest     = findLargest(data);
         int smallest    = findSmallest(data);
         int posLargest  = findPosition(data, largest);
         int posSmallest = findPosition(data, smallest);
 			
-		System.out.println("");
+
 		System.out.printf("Largest:  %3d at index %d%n", largest, posLargest);
         System.out.printf("Smallest: %3d at index %d%n%n", smallest, posSmallest);
 
         // Compute 2nd largest / smallest
         int[] second = findSecondLargestSmallest(data, largest, smallest);
-        System.out.println("");
         System.out.printf("2nd Largest:  %3d at index %d%n", second[0], second[1]);
         System.out.printf("2nd Smallest: %3d at index %d%n%n", second[2], second[3]);
 
         // Compute 5th largest / smallest
         int[] fifth = findNthLargestSmallest(data, 5);
-        System.out.println("");
         System.out.printf("5th Largest:  %3d at index %d%n", fifth[0], fifth[1]);
         System.out.printf("5th Smallest: %3d at index %d%n%n", fifth[2], fifth[3]);
 
         // Compute median
         int median    = findMedian(data);
         int posMedian = findPosition(data, median);
-        System.out.println("");
         System.out.printf("Median: %3d at index %d%n", median, posMedian);
 
     }
