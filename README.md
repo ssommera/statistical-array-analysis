@@ -105,7 +105,7 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 ---
 
 ## 📫 Contact
-Created by  🔗 [**Stephen Sommer**](https://github.com/ssommera). Reach out or follow for more AI and data-centric tools. 
+Created by [**Stephen Sommer**](https://github.com/ssommera). Reach out or follow for more AI and data-centric tools. 
 
 ---
 
