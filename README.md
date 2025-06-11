@@ -12,7 +12,7 @@ A Java command-line application for generating synthetic integer datasets and pe
 
 ---
 
-## Overview
+## 🔍 Overview
 
 This program generates a fixed-size array of random integers and computes:
 
@@ -25,7 +25,7 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 - **Synthetic Data Generation**  
   `generateRandomArray(size, min, max)` produces reproducible random samples in a configurable range, mimicking data simulation steps in AI experiments.
@@ -45,7 +45,7 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 
 ---
 
-## Research Relevance & AI Applications
+## 🧪 Research Relevance & AI Applications
 
 - **Data Preprocessing Foundations**  
   Demonstrates core operations—sampling, sorting, aggregation—used to prepare and validate datasets before model training.
@@ -64,7 +64,7 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 
 ---
 
-## Code Insights: AI & Data Science Principles
+## 🧠 Code Insights: AI & Data Science Principles
 
 - **Modularity & Reusability**  
   Each analysis step is encapsulated in a dedicated method, promoting clean interfaces and easy testing.
@@ -80,14 +80,14 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 
 ---
 
-## Requirements
+## 💻 Requirements
 
 - Java Development Kit (JDK) 8 or higher  
 - No external dependencies  
 
 ---
 
-## Usage
+## 🚀 Usage
 
 1. **Compile** the source:
    ```bash
@@ -95,7 +95,7 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 
 ---
 
-## Potential Enhancements for AI Research
+## 🔧 Potential Enhancements for AI Research
 
 - Replace full sorting with **selection algorithms** (e.g., Quickselect) for nth-order statistics on large datasets  
 - Integrate **streaming data** support to compute rolling statistics in real time  
