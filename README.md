@@ -1,4 +1,12 @@
-# Statistical Array Analysis
+# Statistical Array Analysis (Java Version)
+
+This repository contains the **Java implementation** of the statistical array analysis project originally developed in Java.
+
+🔗 **Python Version:** [statistical-array-analysis (Python)](https://github.com/ssommera/statistical-array-analysis-python)
+
+---
+
+## 🧠 Purpose
 
 A Java command-line application for generating synthetic integer datasets and performing fundamental statistical analyses. Designed with modular, reusable methods, this project demonstrates core data-preprocessing and exploratory data analysis (EDA) workflows relevant to AI research.
 
@@ -96,9 +104,8 @@ All outputs are displayed alongside positional metadata, modeling the kind of su
 
 ---
 
-## License
-
-Open-source and available for extension in AI research and data science projects. Contributions welcome under the MIT License.  
+## 📫 Contact
+Created by **Stephen Sommer**. Reach out or follow for more AI and data-centric tools. 
 
 ---
 
